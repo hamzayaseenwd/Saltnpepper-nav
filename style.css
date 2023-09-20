@@ -250,3 +250,39 @@ ul {
 }
 
 /* navbar end */
+
+/* Carousel area start */
+
+.carousel img{
+    width: 100%;
+
+}
+
+
+
+
+/* Carousel area end */
+
+
+
+/* Choose by category area start */
+
+.items1, .items2,.items3,.items4,.items5{
+    
+    width: 206px;
+    height: 350px;
+    border: 10px solid black;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Choose by category area end */
