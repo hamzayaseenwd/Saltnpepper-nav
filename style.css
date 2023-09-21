@@ -12,7 +12,7 @@
     --blue: #032f5a;
     --red: #ed1c24;
     --white: #ffffff;
-    --black: #000000
+    --black: #000000;
 }
 
 /* default variables end*/
@@ -226,7 +226,7 @@ ul {
 .logo img{
     width: 170px;
     height: 75px;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-left: 5px;
     
     
@@ -237,7 +237,8 @@ ul {
     color: #ffffff;
     border: 1px solid white;
     height: 55px;
-    width: 140px;
+    width: 170px;
+    padding: 10px;
     border-radius: 40px;
 }
 .nav-btn1{
@@ -267,12 +268,123 @@ ul {
 
 /* Choose by category area start */
 
-.items1, .items2,.items3,.items4,.items5{
-    
-    width: 206px;
-    height: 350px;
-    border: 10px solid black;
+.Category{
+    text-align: center;
+}
+
+
+.items1 img, .items2 img,.items3 img,.items4 img,.items5 img{
+    width: 150px;
+    height: 280px;
     object-fit: cover;
+    
+}
+.items1 h3, .items2 h3,.items3 h3,.items4 h3,.items5 h3{
+    text-align: center;
+}
+
+
+/* Choose by category area end */
+
+ 
+
+
+
+
+/* DiscoverTheTaste!Start  */
+
+.discoverTaste1 img{
+    width: 100%;
+}
+.discoverTaste img{
+    width: 100%;
+    
+}
+
+.discoverTextArea h2{
+    text-align: center;
+    color: #ed1c24;
+
+}
+.arrow{
+    background-color: #ffffff;
+    border-radius: 50%;
+    /* text-size-adjust: 80px ; */
+}
+
+
+ /* DiscoverTheTaste!End  */
+
+
+
+
+  /* Our Deals!Start  */
+  
+.deal1 img, .deal2 img,.deal3 img,.deal4 img,.deal5 img, .deal6 img{
+    width: 250px;
+    height: 210px;
+    object-fit: cover;
+    
+}
+.deal1 h4, .deal2 h4,.deal3 h4,.deal4 h4,.deal5 h4, .deal6 h4{
+    text-align: center;
+    margin: 10px;
+
+}
+.deal1 h5, .deal2 h5,.deal3 h5,.deal4 h5,.deal5 h5, .deal6 h5{
+    text-align: center;
+
+}
+.Deals{
+    text-align: center;
+}
+
+.nav-btn2{
+    background-color: var(--red);
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+}
+
+/* Our Deals!End  */
+
+
+
+/* Menu of the week!Start  */
+
+
+
+
+
+.nav-btn3{
+    background-color: var(--red);
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 170px;
+    border-radius: 40px;
+}
+
+
+/* Menu of the week!End  */
+
+
+
+/* Social Feed!Start  */
+
+
+.Social-Feed{
+    text-align: center;
+}
+
+
+.Feed1 img, .Feed2 img,.Feed3 img,.Feed4 img,.Feed5 img{
+    width: 170px;
+    height: 160px;
+    object-fit: cover;
+    
 }
 
 
@@ -282,7 +394,6 @@ ul {
 
 
 
+/* Social Feed!End  */
 
 
-
-/* Choose by category area end */
