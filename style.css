@@ -293,17 +293,24 @@ ul {
 
 /* DiscoverTheTaste!Start  */
 
-.discoverTaste1 img{
-    width: 100%;
-}
-.discoverTaste img{
-    width: 100%;
-    
+.discover-img img{
+    width: 60%;
 }
 
-.discoverTextArea h2{
-    text-align: center;
+.discover-img1 {
+    width: 50%;
+}
+
+.discoverTextArea h2 {
+    width: 50%;
+    text-align: left;
     color: #ed1c24;
+
+}
+.discoverTextArea h4,h1 {
+    width: 50%;
+    text-align: left;
+    color: #ffffff;
 
 }
 .arrow{
@@ -355,8 +362,9 @@ ul {
 /* Menu of the week!Start  */
 
 
-
-
+.MenuImage img{
+    width: 100%;
+}
 
 .nav-btn3{
     background-color: var(--red);
